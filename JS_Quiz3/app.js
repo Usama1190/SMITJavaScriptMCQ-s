@@ -1,4 +1,344 @@
-// JavaScript Quiz 3                                    June 08 , 24
+// JavaScript Quiz 3   ( 00 / 69 )                       June 08 , 24
+
+
+// 69 : The variables in a function definition that catch the data passed to
+//       them by the calling code are called ....
+
+// a. return      b. parameters *      c. argument       d. function
+
+
+
+// 68 : What will be the output of the following JavaScript code
+/*
+var name = "john player";
+console.log(name[3]);
+*/
+// a. h        b. n *           c. A          d. undefined
+
+
+
+// 67 : How do you write "Hello world" in an alert box
+
+// a. alertBox("Hello world")           b. msgBox("Hello world")
+// c. msg("Hello world")                d. alert("Hello world")  *
+
+
+
+// 66 : What is the keyword for extracting the year
+
+// a. getFullYear *          b. getYear          c. getDateYear
+
+
+
+// 65 : What are the three important manipulations done in a for loop on a 
+//     loop variable
+
+// a. Updation, Incrementation, Initialization
+// b. Testing, Updation, Testing
+// c. Initialization, Testing, Incrementation *
+// d. Initialization, Testing, Updation
+
+
+
+// 64 : How can you get the total number of arguments passed to a function
+
+// a. Using argument.length property     b. Using args.length property
+// c. None of the above *                d. Both of the above
+
+
+
+// 63 : What is the correct syntax for referring to an external script called
+//      "app.js"
+
+// a. <script href="app.js">            b. <script name="app.js">
+// c. <script src="app.js"> *
+
+
+
+// 62 : A function in JavaScript
+
+// a. All of the above *            b. returns the required result
+// c. operates on them              d. takes parameters
+
+
+
+// 61 : Which of the following statements will throw an error
+
+// a. var fun = function bar() {}     b. function() {} *
+// c. var fun = function bar() {}     d. function fun() {}
+
+
+
+// 60 : Which event can be generated when the mouse leaves an element
+
+// a. onmousemove   b. onmousedown   c. onmouseover    d. onmouseout *
+
+
+
+// 59 : Which build-in method returns the calling string value converted 
+//      to uppercase
+
+// a. changeCase(case)  b. toUpper()  c. None of the above  d. toUpperCase() *
+
+
+
+// 58 : What will be the output of the following JavaScript code
+/*
+function foo(a, b) {
+    alert(b);
+}
+
+foo(1);
+*/
+// a. Reference Error      b. 2          c. undefined * 
+
+
+
+// 57 : Which property an arrays can be used to loop through an item
+
+// a. size         b. length *           d. len
+
+
+
+// 56 : How is everything treated in HTML DOM
+
+// a. Elements       b. Attributes       c. Node *          d. Arrays
+
+
+
+// 55 : Code the first line of an if statement that avoids the nesting above
+//      by testing for multiple conditions
+/*
+if(a === 1) {
+    if(c === "Max") {
+        alert("OK");
+    }
+}
+*/
+// a. if(a === 1 || c === "Max") {}         b. if(c === "Max") {}
+// c. if(a === 1 && c === "Max") {} *       d. if(a === 1) {}
+
+
+
+// 54 : How does for loop start
+
+// a. for(i <= 5, i++)              b. for i = 1 to 5
+// c. for(i = 0; i <= 5)            d. for(i = 0; i <= 5; i++) *
+
+
+
+// 53 : What will be the output of the following JavaScript code
+/*
+var size = 5;
+var a = 5;
+var size = 4;
+
+for(var j = size; j >= 0; j--) {
+    console.log(a);
+    a = a - 2;
+}
+*/
+// a. 531         b. 5555 *  ❌       c. 531-1 🟢        d. 5321
+
+
+
+// 52 : What will be the output of the following JavaScript code
+/*
+var sum = 14;
+
+if(sum < 20) {
+    alert("Under");
+}
+else {
+    alert("Over");
+}
+*/
+// a. Over     b. Under *        c. Over Under       d. Under Over
+
+
+
+// 51 : How are the objects organized in the HTML DOM
+
+// a. queue       b. list *      c. stack         d. Hierarchy
+
+
+
+// 50 : Which of this line shoe the correct way to reassign a variable a 
+//      new value
+
+// a. var numb = 10    b. 10 = var numb    c. numb = 10 *    d. 8 => numb
+
+
+
+// 49 : What is the value of indx
+/*
+var text = "to be or not to be";
+var indx = text.lastIndexOf("be");
+console.log(indx);
+*/
+// a. 15 * ❌        b. 16 🟢         c. 17           d. 14
+
+
+
+// 48 : The keyword that rounds a number to a specified number of decimal
+//     places and converts it to a string is ....
+
+// a. toFixed *       b. round        c. random        d. decimal
+
+
+
+// 47 : What is the full form DOM
+
+// a. Document Object Model *            b. Document Oriented Model
+// c. Document Onhalt Model              c. Document Oriented Management
+
+
+
+// 46 : What will be the output of the following JavaScript code
+/*
+var sum = 14;
+
+if(sum != 14) {
+    alert("Win");
+}
+else {
+    alert("Lose");
+}
+
+// a. win          b. lose * 
+*/
+
+
+// 45 : What is the function of an Array object that adds and/or removes 
+//      element from an array
+
+// a. splice() *        b. unshift()        c. toSource()       d. sort()
+
+
+
+// 44 : How can you add a comment in a JavaScript
+
+// a. ""This is comment           b. {This is comment}
+// c. //This is comment *         d. <!-- This is comment -->
+
+
+
+// 43 : When, if either or both sides of an operator is (are) true, the test
+//      passes, what operator is it
+
+// a. || *        b. >>         c. <<           d. &&
+
+
+
+// 42 : What amoung the following is appropriate when an event occurs when 
+//     the user clicks on an event
+
+// a. onchange       b. onkeyup        c. onblur         d. onclick *
+
+
+
+// 41 : What is the output of the following JavaScript code
+/*
+var a = 0;
+var b = 0;
+
+while(a < 3) {
+    a++;
+    b += 1;
+    console.log(b);
+}
+*/
+// a. 123 *      b. 135        c. 013          d. 01
+
+
+
+// 40 : Code the first line of a function that has two parameters
+
+// a. function combineNames() {}     b. function combineNames(firstName) {}
+// c. function combineNames(lastName)
+// d. function combineNames(firstName, lastName) *
+
+
+
+// 39 : A/An .... in JavaScript can contain multiple parameters of different
+//      data types
+
+// a. array       b. function *       c. boolean         d. object
+
+
+
+// 38 : State whether the following statements are True of False. 
+//      i) JavaScript ignores spaces, tabs, and newlines that appear in the 
+//         JavaScript program
+//     ii) Semicolons are necessary while writing JavaScript statement
+//    iii) JavaScript is a case-sensitive language
+
+// a. True, True, False             b. True, False, True * 
+// c. False, False, True            d. False, True, True
+
+
+
+// 37 : What will be the output of the following JavaScript code
+/*
+var arr = [];
+arr[0] = "a";
+arr[1] = "b";
+alert(arr.length);
+*/
+// a. 0         b. 2 *            c. undefined       d. 1
+
+
+
+// 36 : Which event can be generated when the user clicks on an element
+
+// a. after the page has unloaded          b. onclk event 
+// c. onclick event *                      d. onaction event
+
+
+
+// 35 : What is the correct way to write a JavaScript array
+
+// a. var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")
+// b. var colors = ["red", "green", "blue"] *
+// c. var colors = (1:"red", 2:"green", 3:"blue")
+// d. var colors = "red", "green", "blue"
+
+
+
+// 34 : What value would JavaScript assign to an uninitialized variable
+
+// a. false        b. NaN        c. null          d. undefined *
+
+
+
+// 33 : Consider the below code: Identify the correct code in order to fetch
+//     the value entered in a username text field
+
+// <form name='login'>Enter Your Name: <input value='Akash' id='p_name' 
+//     name='u_name'> </form>
+
+// a. document.login.uname.value
+// b. document.getElementById("p_name").value * 
+// c. Both A and B
+// d. document.getElementByName("name").value
+
+
+
+// 32 : How to access the second element of the array arr = [3, 7, 10]
+
+// a. arr[1] *     b. arr[2]     c. arr.indexOf(2)      d. arr.indexOf(1)
+
+
+
+// 31 : What will be the output of the following JavaScript code
+/*
+var string1 = "123";
+var intvalue = 123;
+
+alert(string1 + intvalue);
+*/
+// a. 246          b. Exception         c. 123246      d. 123123
+
 
 
 // 30 : How to insert a comment that has more than one line
