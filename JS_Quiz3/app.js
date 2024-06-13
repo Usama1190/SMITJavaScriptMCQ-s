@@ -1,10 +1,32 @@
-// JavaScript Quiz 3   ( 00 / 69 )                       June 08 , 24
+// JavaScript Quiz 3   ( 62 / 69 )                       June 08 , 24
 
 
 // 69 : The variables in a function definition that catch the data passed to
 //       them by the calling code are called ....
 
 // a. return      b. parameters *      c. argument       d. function
+/*
+The correct answer is b. parameters.
+
+In the context of a function definition, the variables that receive the 
+data passed by the calling code are called parameters. Here’s an explanation 
+of each option to clarify:
+
+a. return: This keyword is used to return a value from a function, not to 
+   catch data passed to the function.
+
+b. parameters: These are the variables listed inside the parentheses in the 
+    function definition. They catch the values (arguments) passed to the function.
+
+c. argument: Arguments are the actual values or data you pass to the 
+    function when you call it.
+
+d. function: This refers to the entire block of code that performs a 
+    specific task, not to the variables that catch passed data.
+
+Therefore, in the context of the function definition, the correct term for 
+the variables that catch the data is parameters.
+*/
 
 
 
@@ -28,6 +50,16 @@ console.log(name[3]);
 
 // a. getFullYear *          b. getYear          c. getDateYear
 
+/*
+The correct keyword for extracting the year from a Date object in JavaScript 
+is:
+
+a. getFullYear
+
+The getFullYear() method returns the year of the specified date according to 
+local time.
+*/
+
 
 
 // 65 : What are the three important manipulations done in a for loop on a 
@@ -39,12 +71,43 @@ console.log(name[3]);
 // d. Initialization, Testing, Updation
 
 
+/*
+The three important manipulations done in a for loop on a loop variable are:
+
+c. Initialization, Testing, Incrementation
+
+These are the standard steps in the syntax of a for loop:
+
+Initialization: This step sets the starting value of the loop variable.
+
+Testing: This condition is checked before each iteration of the loop. If it 
+evaluates to true, the loop continues; if false, the loop ends.
+
+Incrementation: This step updates the loop variable, typically increasing or 
+decreasing its value, after each iteration of the loop.
+*/
+
+
 
 // 64 : How can you get the total number of arguments passed to a function
 
 // a. Using argument.length property     b. Using args.length property
 // c. None of the above *                d. Both of the above
 
+
+/*
+The correct answer is:
+
+c. None of the above
+
+In JavaScript, the total number of arguments passed to a function can be 
+determined using the arguments object, specifically the arguments.length 
+property. Therefore, the correct approach is to use arguments.length, not 
+argument.length or args.length.
+
+The options provided in the question do not correctly state this property, 
+so "None of the above" is the right choice.
+*/
 
 
 // 63 : What is the correct syntax for referring to an external script called
@@ -59,6 +122,26 @@ console.log(name[3]);
 
 // a. All of the above *            b. returns the required result
 // c. operates on them              d. takes parameters
+
+
+/*
+The correct answer is:
+
+a. All of the above
+
+A function in JavaScript:
+
+Returns the required result: A function can return a value using the return 
+statement.
+
+Operates on them: A function performs operations on the input parameters or 
+variables within its scope.
+
+Takes parameters: A function can accept input parameters to work with.
+
+Therefore, all of the given statements about functions in JavaScript are 
+correct.
+*/
 
 
 
@@ -105,6 +188,18 @@ foo(1);
 // a. Elements       b. Attributes       c. Node *          d. Arrays
 
 
+/*
+The correct answer is:
+
+c. Node
+
+In the HTML DOM (Document Object Model), everything is treated as a node. 
+This includes elements, attributes, text, and other parts of the document. 
+The DOM represents the document as a tree of nodes.
+*/
+
+
+
 
 // 55 : Code the first line of an if statement that avoids the nesting above
 //      by testing for multiple conditions
@@ -117,6 +212,16 @@ if(a === 1) {
 */
 // a. if(a === 1 || c === "Max") {}         b. if(c === "Max") {}
 // c. if(a === 1 && c === "Max") {} *       d. if(a === 1) {}
+
+
+/*
+The correct answer is:
+
+c. if(a === 1 && c === "Max") {}
+
+This if statement combines both conditions using the logical AND operator (&&), which ensures that the alert will only be triggered if both a === 1 and c === "Max" are true, thereby avoiding the need for nested if statements.
+*/
+
 
 
 
@@ -141,6 +246,30 @@ for(var j = size; j >= 0; j--) {
 // a. 531         b. 5555 *  ❌       c. 531-1 🟢        d. 5321
 
 
+/*
+Here's what happens step by step:
+
+size is initially set to 5.
+a is set to 5.
+size is reassigned to 4.
+The for loop initializes j to size (which is now 4) and decrements j in each iteration until j is no longer greater than or equal to 0.
+Inside the loop, console.log(a) is called, printing the current value of a.
+a is then decremented by 2.
+Let's iterate through the loop:
+
+First iteration (j = 4): console.log(a) prints 5, then a becomes 3.
+Second iteration (j = 3): console.log(a) prints 3, then a becomes 1.
+Third iteration (j = 2): console.log(a) prints 1, then a becomes -1.
+Fourth iteration (j = 1): console.log(a) prints -1, then a becomes -3.
+Fifth iteration (j = 0): console.log(a) prints -3, then a becomes -5.
+Thus, the correct output is: 5 3 1 -1 -3.
+
+Therefore, the correct answer is:
+
+c. 531-1
+*/
+
+
 
 // 52 : What will be the output of the following JavaScript code
 /*
@@ -159,7 +288,20 @@ else {
 
 // 51 : How are the objects organized in the HTML DOM
 
-// a. queue       b. list *      c. stack         d. Hierarchy
+// a. queue       b. list * ❌     c. stack         d. Hierarchy  🟢
+
+
+/*
+The correct answer is:
+
+d. Hierarchy
+
+In the HTML DOM (Document Object Model), objects are organized in a 
+hierarchical structure. This structure is often referred to as a "tree," 
+where each node represents an object. The hierarchy allows for a 
+parent-child relationship between the elements, enabling nested elements 
+within other elements.
+*/
 
 
 
@@ -427,6 +569,49 @@ printArray([1, 2, 3]);
 // d. Prints the numbers in the array in order *
 
 
+/*
+Here's what the function does:
+
+It takes an array a as input.
+
+It calculates the length of the array and stores it in the variable len.
+
+It initializes the variable i to 0.
+
+It checks if the length of the array is 0. If it is, it prints "Empty Array".
+
+If the array is not empty, it enters a do...while loop:
+
+The loop prints the element at index i of the array.
+
+It then increments i by 1 and checks if i is still less than the length of 
+the array.
+
+This continues until i is no longer less than len
+
+For the given input [1, 2, 3]:
+
+The length of the array len is 3.
+
+The loop starts with i = 0 and prints a[0] (which is 1).
+
+It increments i to 1 and prints a[1] (which is 2).
+
+It increments i to 2 and prints a[2] (which is 3).
+
+It increments i to 3, at which point the condition i < len (3 < 3) is false, 
+and the loop terminates.
+
+Therefore, the function prints the numbers in the array in order: 1, 2, 3.
+
+The correct answer is:
+
+d. Prints the numbers in the array in order
+*/
+
+
+
+
 // 23 : What will be the output of the following JavaScript code
 /*
 function range(length) {
@@ -455,6 +640,17 @@ range(3);
 // a. length        b. lastIndexOf() *        c. indexOf()     d. index
 
 
+/*
+The correct answer is:
+
+b. lastIndexOf()
+
+The lastIndexOf() method in JavaScript returns the index of the first 
+character of the last occurrence of a specified value in a string.
+*/
+
+
+
 
 // 20 : What will be the output of the following JavaScript code
 /*
@@ -477,7 +673,28 @@ console.log(average(2, 1));
 
 // 18 : Global and Local variables differ in their ....
 
-// a. Scope        b. Variable       c. Global        d. Block level *
+// a. Scope 🟢       b. Variable       c. Global        d. Block level *❌
+
+
+
+/*
+The correct answer is:
+
+a. Scope
+
+Global and local variables differ in their scope.
+
+Global variables are declared outside of any function and can be accessed 
+and modified throughout the entire program.
+
+Local variables are declared within a function and their scope is limited 
+to that function (or sometimes a block of code, in the case of ES6 let and 
+    const declarations).
+
+Therefore, the main difference lies in how widely accessible these variables 
+are within the program, which is what scope determines.
+*/
+
 
 
 
@@ -498,9 +715,40 @@ console.log(average(2, 1));
 
 
 
+/*
+The correct answer is:
+
+a. Global variable
+
+A variable declared in the main code, outside of any function, is 
+considered a global variable. This means it can be accessed and modified 
+from anywhere within the program, including inside functions and other code 
+blocks.
+
+Local variables, on the other hand, are declared within functions or blocks 
+of code using keywords like let, const, or var, and their scope is limited 
+to that specific function or block.
+
+Therefore, the correct answer is that it is a global variable.
+*/
+
+
+
+
 // 14 : What is the keyword for extracting the date of the month
 
 // a. Date        b. getMonth         c. getDate *       d. getDay
+
+
+/*
+The correct answer is:
+
+c. getDate
+
+In JavaScript's Date object, the getDate() method is used to extract the 
+day of the month (1 through 31) from a given date. This method retrieves 
+the day of the month as per the local time zone.
+*/
 
 
 
@@ -543,6 +791,36 @@ console.log(myarray);
 // a. ABC 124       b. 12Ab         c. abc123        d. abcGf *
 
 
+/*
+The correct answer is:
+
+d. abcGf
+
+In JavaScript, variable names must follow certain rules:
+
+They must begin with a letter (a-z, A-Z), underscore (_), or dollar sign ($).
+Subsequent characters can be letters, digits (0-9), underscores, or dollar 
+signs.
+
+They are case-sensitive.
+
+Based on these rules, abcGf is a valid variable name because it starts with 
+a letter and contains only letters and no special characters or numbers at 
+the beginning.
+
+Let's review the other options to see why they are not valid:
+
+a. ABC 124: Contains a space, which is not allowed in variable names.
+b. 12Ab: Starts with a number, which is not allowed. Variable names cannot 
+   start with a digit.
+
+c. abc123: Contains only letters and numbers, which is valid, but it's not 
+   the correct answer as it lacks capital letters
+*/
+
+
+
+
 
 // 08 : What will be the following code
 
@@ -556,6 +834,23 @@ console.log(myarray);
 
 // a. when the sescution of the function is over *     b. None of the above
 // c. when the function is invoked        d. when the function is declined
+
+
+/*
+The correct answer is:
+
+a. when the execution of the function is over
+
+In JavaScript, the lifetime (or scope) of function parameters begins when 
+the function is invoked and ends when the execution of the function 
+completes. Parameters are local variables to the function and are accessible 
+only within the function's body during its execution. Once the function 
+finishes executing, these parameters go out of scope and are no longer 
+accessible.
+
+Therefore, the correct answer is when the execution of the function is over.
+*/
+
 
 
 
@@ -622,3 +917,24 @@ hello();
 
 // a. Modify the nodes            b. Making the script modular
 // c. Make the scripting easier   d. Allows access to few keys and elements *
+
+
+/*
+The correct answer is:
+
+d. Allows access to few keys and elements
+
+The legacy DOM (Document Object Model) refers to the original way of 
+interacting with HTML documents using JavaScript. It typically refers to 
+methods and properties that were available in older versions of browsers or 
+JavaScript specifications.
+
+The purpose of the legacy DOM was primarily to provide access to a limited 
+set of keys (such as event handlers) and elements in the document structure, 
+allowing basic manipulation and interaction with web pages. It laid the 
+foundation for modern DOM manipulation techniques but had more limited 
+capabilities compared to contemporary standards.
+
+Therefore, the correct answer is that it allows access to few keys and 
+elements.
+*/
