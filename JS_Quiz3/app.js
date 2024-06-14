@@ -1,4 +1,4 @@
-// JavaScript Quiz 3   ( 62 / 69 )                       June 08 , 24
+// JavaScript Quiz 3   ( 61 / 69 )                       June 08 , 24
 
 
 // 69 : The variables in a function definition that catch the data passed to
@@ -479,7 +479,7 @@ var intvalue = 123;
 
 alert(string1 + intvalue);
 */
-// a. 246          b. Exception         c. 123246      d. 123123
+// a. 246          b. Exception         c. 123246      d. 123123 * 
 
 
 
@@ -487,7 +487,7 @@ alert(string1 + intvalue);
 
 // a. //this comment has more than one line
 // b. <--comment has more than one line-->
-// c. /*comments has more than one line*/
+// c. /*comments has more than one line*/    *
 // d. //comment has more than one line//
 
 
@@ -495,7 +495,7 @@ alert(string1 + intvalue);
 // 29 : What will be the output of the following JavaScript code
 /*
 var name = "John Appleseed";
-var newName = name.slice(5, 10);
+var newName = name.slice(5, 10);     // 5 included and 10 excluded
 console.log(newName);
 */
 // a. hn App       b. pples * ❌       c. Apple 🟢       d. hn A
@@ -768,7 +768,8 @@ the day of the month as per the local time zone.
 // 11 : Which of the following is true about variable naming convension in JS
 
 // a. JavaScript variable names should not start with a numeral (0-9).
-// b. You should not use any of the JavaScript reserved keyword as variable name.
+// b. You should not use any of the JavaScript reserved keyword as variable 
+//     name.
 // c. None of the above
 // d. Both of the above *
 
@@ -783,6 +784,8 @@ console.log(myarray);
 */
 // a. [bin, foo, bar, baz]             b. [foo, bar, baz]
 // c. [bin] *                          d. [foo, bar, baz, bin]
+
+
 
 
 
@@ -816,6 +819,8 @@ b. 12Ab: Starts with a number, which is not allowed. Variable names cannot
 
 c. abc123: Contains only letters and numbers, which is valid, but it's not 
    the correct answer as it lacks capital letters
+
+d. abcGf: Valid because it starts with a letter and contains only letters.
 */
 
 
@@ -832,23 +837,28 @@ c. abc123: Contains only letters and numbers, which is valid, but it's not
 
 // 07 : The lifttime of the parameters begin 
 
-// a. when the sescution of the function is over *     b. None of the above
-// c. when the function is invoked        d. when the function is declined
+// a. when the sescution of the function is over *❌     b. None of the above
+// c. when the function is invoked  🟢      d. when the function is declined
 
 
 /*
-The correct answer is:
+The lifetime of parameters in a function begins when the function is invoked.
 
-a. when the execution of the function is over
+When a function is invoked:
 
-In JavaScript, the lifetime (or scope) of function parameters begins when 
-the function is invoked and ends when the execution of the function 
-completes. Parameters are local variables to the function and are accessible 
-only within the function's body during its execution. Once the function 
-finishes executing, these parameters go out of scope and are no longer 
-accessible.
+Parameters are initialized with the values passed to the function.
 
-Therefore, the correct answer is when the execution of the function is over.
+These parameters exist as local variables within the function's scope.
+
+They are accessible and usable throughout the execution of the function's 
+body.
+
+So, to clarify your previous question, the correct answer would be:
+
+c. when the function is invoked
+
+This accurately describes when the lifetime of function parameters begins 
+in JavaScript.
 */
 
 
@@ -920,7 +930,7 @@ hello();
 
 
 /*
-The correct answer is:
+The correct answer is:              Explanation
 
 d. Allows access to few keys and elements
 
