@@ -3,6 +3,29 @@
 
 
 // What will be the output of the code when code is executed
+
+// Topic : JavaScript for loop and Array Manipulation
+/*
+let array = [1, 2, 3, 4, 5];
+
+for(let i = 0; i < array.length; i++) {
+    array[i] = array[i] * array[i];
+}
+
+let sum = 0;
+
+for(let i = 0; i< array.length; i++) {
+    sum += array[i];
+}
+
+console.log(sum);
+*/
+// a. 15        b. 30          c. 55 *        d. 45         e. 35
+
+
+
+
+// What will be the output of the code when code is executed
 /*
 let count = 0;
 
