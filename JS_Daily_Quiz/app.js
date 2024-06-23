@@ -4,11 +4,11 @@
 
 // Topic : JavaScript Logical Opeartors and Short-Circuiting
 
-/*
+
 let result = (5 > 2) && (10 < 20) || (15 === 15) && !(5 === 5);
 
 console.log(result);
-*/
+
 
 // a. true *       b. null       c. false       d. NaN      e. undefined
 
