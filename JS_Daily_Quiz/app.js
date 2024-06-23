@@ -1,4 +1,56 @@
-//          JavaScript MCQ's form JavaScript Daily Quize
+//          JavaScript MCQ's form JavaScript Daily Quizes
+
+
+
+// Topic : JavaScript Logical Opeartors and Short-Circuiting
+
+/*
+let result = (5 > 2) && (10 < 20) || (15 === 15) && !(5 === 5);
+
+console.log(result);
+*/
+
+// a. true *       b. null       c. false       d. NaN      e. undefined
+
+
+
+
+
+
+
+
+// Topic : JavaScript Conditional Operator and isNaN() Function (ternary)
+
+/*
+const res = 10 + (isNaN(2) ? 0 : 20);
+
+console.log(res);
+*/
+
+// a. 10        b. 20         c. NaN         d. 30 *      e. SyntaxError
+
+
+
+// Topic : JavaScript Array Refernece
+
+/*
+let a = [1, 2, 3];
+let b = a;
+
+b.push(4);
+
+console.log(a);
+*/
+
+// a. [1, 2, 3]       b. [1, 2, 3, 4] *           c. [4, 1, 2, 3]
+// d. [1, 2, 3, undefined, 4]           e. [1, 2, 3, 4, 4]
+
+
+
+
+
+
+
 
 
 
